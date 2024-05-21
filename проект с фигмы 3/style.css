@@ -1,0 +1,579 @@
+body {
+    max-width: 1290px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box-black {
+    gap: 30px;
+    display: flex;
+    position: relative;
+    top: 0px;
+    height: 38px;
+    width: 2000px;
+    background: rgb(49, 49, 49);
+}
+
+.left-text {
+    position: relative;
+    left: 140px;
+    padding-top: 10px;
+    color: rgb(255, 255, 255);
+    float: left;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: left;
+    cursor: pointer;
+}
+
+.left-text:hover {
+    color: rgb(207, 207, 207);
+}
+
+
+.right-png1 {
+    position: relative;
+    left: 1008x;
+    width: 138px;
+    height: 17px;
+    left: 850px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.right-png2 {
+    position: relative;
+    width: 103px;
+    height: 17.37px;
+    left: 860px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.logo {
+    position: relative;
+    padding-top: 32px;
+    left: 140px;
+    cursor: pointer;
+}
+
+.logo-search {
+    position: relative;
+    bottom: 18px;
+    padding-left: 15px;
+
+    color: rgb(65, 65, 65);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+
+.search-text {
+    padding-top: 18px;
+    padding-left: 49px;
+
+    color: rgb(65, 65, 65);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: left;
+
+
+}
+
+.search-box {
+    position: absolute;
+    width: 839px;
+    height: 50px;
+    left: 291px;
+    top: 58px;
+
+    box-sizing: border-box;
+    border: 1px solid rgb(230, 230, 230);
+}
+
+.bar {
+    position: relative;
+    bottom: 35px;
+    left: 900px;
+}
+
+/* mission 2 */
+
+.select-box {
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.07);
+    background: rgb(255, 255, 255);
+
+    display: flex;
+    position: relative;
+
+    top: 20px;
+    left: 140px;
+
+    width: 1140px;
+    height: 70px;
+}
+
+.image1 {
+    position: relative;
+    left: 180px;
+    bottom: 25px;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+.image1:hover {
+    transform: scale(0.9);
+}
+
+.image2 {
+    position: relative;
+    left: 230px;
+    bottom: 25px;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+.image2:hover {
+    transform: scale(0.9);
+}
+
+.image3 {
+    position: relative;
+    left: 280px;
+    bottom: 25px;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+.image3:hover {
+    transform: scale(0.9);
+}
+
+.image4 {
+    position: relative;
+    left: 330px;
+    bottom: 25px;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+.image4:hover {
+    transform: scale(0.9);
+}
+
+.image5 {
+    position: relative;
+    left: 380px;
+    bottom: 25px;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+.image5:hover {
+    transform: scale(0.9);
+}
+
+.image6 {
+    position: relative;
+    left: 430px;
+    bottom: 25px;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+.image6:hover {
+    transform: scale(0.9);
+}
+
+.image7 {
+    position: relative;
+    left: 535px;
+    bottom: 25px;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+.text-box {
+    position: relative;
+    left: 1140px;
+    bottom: 49px;
+
+    color: rgb(215, 68, 68);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+.text-box:hover {
+    color: rgb(232, 123, 123);
+}
+
+/* mission 3 */
+
+.boss-png {
+
+    position: relative;
+    left: 140px;
+    top: 30px;
+
+    background: url(1785);
+}
+
+.loft {
+    position: relative;
+    left: 260px;
+    bottom: 328px;
+    max-width: 200px;
+
+    color: rgb(60, 60, 60);
+    font-family: Playfair Display;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 105.3%;
+    letter-spacing: 2%;
+    text-align: left;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.loft-mini {
+    position: relative;
+    left: 260px;
+    bottom: 310px;
+
+    color: rgb(52, 52, 52);
+    font-family: Roboto Condensed;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140.8%;
+    letter-spacing: 2%;
+    text-align: left;
+}
+
+.btn1 {
+    width: 163px;
+    height: 45px;
+    position: relative;
+    left: 260px;
+    bottom: 285px;
+    color: rgb(65, 65, 65);
+    font-family: Roboto Condensed;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 140.8%;
+    letter-spacing: 4%;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.07);
+    background: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+.btn1:hover {
+    background-color: rgb(238, 238, 238);
+    transform: scale(1.1);
+}
+
+.left-ch1 {
+    position: relative;
+    bottom: 410px;
+    left: 165px;
+    width: 30px;
+    height: 30px;
+
+    background: rgba(157, 157, 157, 0.28);
+    transition: all 1s ease;
+}
+
+.left-ch1:hover {
+    transform: scale(1.1);
+    box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.07);
+}
+
+.left-ch2 {
+    position: relative;
+    bottom: 410px;
+    left: 1210px;
+    width: 30px;
+    height: 30px;
+
+    background: rgba(157, 157, 157, 0.28);
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+.left-ch2:hover {
+    transform: scale(1.1);
+    box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.07);
+}
+
+
+.str {
+    position: relative;
+    left: 143px;
+    bottom: 410px;
+    width: 5px;
+    height: 8px;
+}
+
+.str2 {
+    position: relative;
+    left: 1189px;
+    bottom: 410px;
+    width: 5px;
+    height: 8px;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+/* mission 4 */
+
+.small-text {
+    position: relative;
+    left: 150px;
+    bottom: 160px;
+
+    color: rgb(65, 65, 65);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.box-one {
+    width: 263px;
+    height: 350px;
+    display: inline-block;
+    padding-left: 45px;
+}
+
+.stolchik {
+    position: relative;
+    width: 200px;
+    height: 150px;
+    left: 172px;
+    bottom: 54px;
+}
+
+.text-one {
+    position: relative;
+    left: 160px;
+    bottom: 10px;
+
+    color: rgb(65, 65, 65);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.text-two {
+    position: relative;
+    left: 160px;
+    bottom: 5px;
+
+    color: rgb(65, 65, 65);
+    font-family: Roboto;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.text-number {
+    position: relative;
+    left: 160px;
+
+    color: rgb(65, 65, 65);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.heard {
+    position: relative;
+    left: 370px;
+    bottom: 295px;
+
+    width: 18px;
+    height: 17px;
+}
+
+/* end */
+
+.end1 {
+    position: relative;
+    bottom: 0px;
+    width: 1450px;
+    height: 234px;
+
+    box-shadow: 0px -4px 10px 0px rgba(0, 0, 0, 0.03);
+    background: rgb(255, 255, 255);
+}
+
+.text-end {
+    position: relative;
+    padding-top: 10px;
+
+    left: 130px;
+    color: rgb(65, 65, 65);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 126.69%;
+    letter-spacing: 0%;
+    text-align: left;
+    cursor: pointer;
+}
+
+.big-text-end {
+    width: 83px;
+    height: 18px;
+    position: relative;
+    left: 161px;
+    top: 55px;
+
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 126.69%;
+    letter-spacing: 0%;
+    text-align: right;
+    cursor: pointer;
+}
+
+.small-text-end {
+    position: relative;
+    color: rgb(65, 65, 65);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 126.69%;
+    letter-spacing: 0%;
+    text-align: left;
+    left: 161px;
+    top: 65px;
+    cursor: pointer;
+}
+
+.small-text-end {
+    position: relative;
+    left: 161px;
+    top: 75px;
+
+    color: rgb(65, 65, 65);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 126.69%;
+    letter-spacing: 0%;
+    text-align: left;
+    cursor: pointer;
+}
+
+.small-text-end {
+    position: relative;
+    left: 161px;
+    top: 85px;
+
+    color: rgb(65, 65, 65);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 126.69%;
+    letter-spacing: 0%;
+    text-align: left;
+    cursor: pointer;
+}
+
+.sell {
+    position: relative;
+    left: 161px;
+    top: 115px;
+    color: rgb(215, 68, 68);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 126.69%;
+    letter-spacing: 0%;
+    text-align: left;
+    cursor: pointer;
+}
+
+.new {
+    position: relative;
+    left: 235px;
+    top: 98px;
+
+    color: rgb(65, 65, 65);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 126.69%;
+    letter-spacing: 0%;
+    text-align: left;
+    cursor: pointer;
+}
+
+.end2 {
+    position: relative;
+    left: 252px;
+    bottom: 199px;
+    cursor: pointer;
+}
+
+.end3 {
+    position: relative;
+    left: 470px;
+    bottom: 288px;
+    cursor: pointer;
+}
+
+.contact {
+    position: relative;
+    width: 481px;
+    height: 84px;
+    left: 300px;
+    top: 75px;
+    cursor: pointer;
+}
+
+.logo-lm {
+    position: relative;
+    bottom: 30px;
+    left: 240px;
+    cursor: pointer;
+}
+
+.box-one {
+    cursor: pointer;
+}
+
